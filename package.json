@@ -1,0 +1,24 @@
+{
+  "name": "crudmernstack",
+  "version": "1.0.0",
+  "description": "CRUD MERN with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run build\" \"npm run client\"",
+    "client": "npm start --prefix my-app",
+    "build": "npm run dev --prefix API"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomdevs/CRUDMERNSTACK.git"
+  },
+  "author": "diegodevs <diegom.develops@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomdevs/CRUDMERNSTACK/issues"
+  },
+  "homepage": "https://github.com/diegomdevs/CRUDMERNSTACK#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
