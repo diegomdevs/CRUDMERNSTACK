@@ -4,9 +4,9 @@
   "description": "CRUD MERN with TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run build\" \"npm run client\"",
-    "client": "npm start --prefix my-app",
-    "build": "npm run build --prefix API"
+    "start": "npm run build && npm run startapp",
+    "build": "npm run build --prefix API && npm run build --prefix my-app",
+    "startapp": "npm run start --prefix API & npm run serve --prefix my-app"
   },
   "repository": {
     "type": "git",
