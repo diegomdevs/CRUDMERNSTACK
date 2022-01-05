@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm run build\" \"npm run client\"",
     "client": "npm start --prefix my-app",
-    "build": "npm run dev --prefix API"
+    "build": "npm run build --prefix API"
   },
   "repository": {
     "type": "git",
