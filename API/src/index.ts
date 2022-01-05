@@ -16,4 +16,4 @@ app.use(morgan("dev"));
 // Routes
 RouterApi(app);
 // App Port
-app.listen(config.PORT, () => console.log(`APP LISTEN ON PORT ${config.PORT}`));
+app.listen(config.PORT, () => console.log(`APP LISTEN ON PORT ${config.PORT}!`));
