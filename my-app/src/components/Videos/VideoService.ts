@@ -1,6 +1,6 @@
 import axios from 'axios';
 import Video from './Video';
-const API = 'http://localhost:5000/api/v1/';
+const API = 'https://favorites-videos-api.herokuapp.com/api/v1';
 export const getVideos = async () => {
   return await (await axios.get<Video[]>(`${API}/videos`)).data;
 }
