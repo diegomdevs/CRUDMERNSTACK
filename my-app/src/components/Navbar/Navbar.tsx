@@ -13,12 +13,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/new-video">Create new video</Link>
+                <Link className="nav-link " to="/new-video">Create new video</Link>
               </li>
             </ul>
+            
           </div>
         </div>
       </nav>
+      <Link className="create_video " to="/new-video">Create new video</Link>
     </div>
   )
 }

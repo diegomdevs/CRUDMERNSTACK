@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-size: 15px
+}
+.create_video {
+  position: absolute;
+  top: 22px;
+  right: calc(30% - 30px);
+  margin-right: 40px;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+@media only screen and (min-width: 992px) {
+  .create_video {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+}

@@ -6,6 +6,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import VideoForm from "./components/Videos/VideoForm";
 import "bootswatch/dist/pulse/bootstrap.min.css";
 import Navbar from "./components/Navbar/Navbar";
+import "./components/Navbar/navbar.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 ReactDOM.render(
